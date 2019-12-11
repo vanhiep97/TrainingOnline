@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+
+html, body, * {
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+#app {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.el-header {
+	height: 50px;
+    line-height: 60px;
+    background: #343a40;
+    span {
+    	color: #FFF;
+    	font-size: 18px;
+    }
+}

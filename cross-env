@@ -1,0 +1,1648 @@
+ DONE  Compiled successfully in 6360ms10:56:46 PM
+
+                                                                                      Asset      Size   Chunks             Chunk Names
+                                                                               /css/app.css   0 bytes  /js/app  [emitted]  /js/app
+                                                                                 /js/app.js  2.91 MiB  /js/app  [emitted]  /js/app
+ fonts/vendor/element-ui/lib/theme-chalk/element-icons.ttf?732389ded34cb9c52dd88271f1345af9  54.6 KiB           [emitted]  
+fonts/vendor/element-ui/lib/theme-chalk/element-icons.woff?535877f50039c0cb49a6196a5b7517cd  27.5 KiB           [emitted]  
+ WAIT  Compiling...10:59:31 PM
+
+ DONE  Compiled successfully in 4040ms10:59:36 PM
+
+       Asset      Size   Chunks             Chunk Names
+/css/app.css   0 bytes  /js/app  [emitted]  /js/app
+  /js/app.js  4.16 MiB  /js/app  [emitted]  /js/app
+ + 2 hidden assets
+ WAIT  Compiling...11:24:34 PM
+
+ ERROR  Failed to compile with 1 errors11:24:36 PM
+
+This relative module was not found:
+
+* ../theme/index.css in ./resources/js/app.js
+       Asset      Size   Chunks             Chunk Names
+/css/app.css   0 bytes  /js/app  [emitted]  /js/app
+  /js/app.js  3.96 MiB  /js/app  [emitted]  /js/app
+
+ERROR in ./resources/js/app.js
+Module not found: Error: Can't resolve '../theme/index.css' in 'D:\Project\AppServ\www\sextoy\resources\js'
+ @ ./resources/js/app.js 8:0-28
+ @ multi ./resources/js/app.js ./resources/sass/app.scss
+ WAIT  Compiling...11:24:41 PM
+
+ DONE  Compiled successfully in 3534ms11:24:45 PM
+
+                                                    Asset      Size   Chunks             Chunk Names
+                                             /css/app.css   0 bytes  /js/app  [emitted]  /js/app
+                                               /js/app.js  5.25 MiB  /js/app  [emitted]  /js/app
+ fonts/element-icons.ttf?732389ded34cb9c52dd88271f1345af9  54.6 KiB           [emitted]  
+fonts/element-icons.woff?535877f50039c0cb49a6196a5b7517cd  27.5 KiB           [emitted]  
+ WAIT  Compiling...11:33:24 PM
+
+ ERROR  Failed to compile with 1 errors11:33:26 PM
+
+ error  in ./resources/js/views/App.vue?vue&type=template&id=91ac6b5c&
+
+Module Error (from ./node_modules/vue-loader/lib/loaders/templateLoader.js):
+(Emitted value instead of an instance of Error) 
+
+  Errors compiling template:
+
+  Component template should contain exactly one root element. If you are using v-if on multiple elements, use v-else-if to chain them instead.
+
+  4  |    <el-main>Main</el-main>
+  5  |  </el-container>
+  6  |  
+     |   
+  7  |  <el-container>
+     |  ^^^^^^^^^^^^^^
+  8  |    <el-header>Header</el-header>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  9  |    <el-main>Main</el-main>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |    <el-footer>Footer</el-footer>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 |  </el-container>
+     |  ^^^^^^^^^^^^^^^
+  12 |  
+     |  
+  13 |  <el-container>
+     |  ^^^^^^^^^^^^^^
+  14 |    <el-aside width="200px">Aside</el-aside>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  15 |    <el-main>Main</el-main>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^
+  16 |  </el-container>
+     |  ^^^^^^^^^^^^^^^
+  17 |  
+     |  
+  18 |  <el-container>
+     |  ^^^^^^^^^^^^^^
+  19 |    <el-header>Header</el-header>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  20 |    <el-container>
+     |  ^^^^^^^^^^^^^^^^
+  21 |      <el-aside width="200px">Aside</el-aside>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  22 |      <el-main>Main</el-main>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  23 |    </el-container>
+     |  ^^^^^^^^^^^^^^^^^
+  24 |  </el-container>
+     |  ^^^^^^^^^^^^^^^
+  25 |  
+     |  
+  26 |  <el-container>
+     |  ^^^^^^^^^^^^^^
+  27 |    <el-header>Header</el-header>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  28 |    <el-container>
+     |  ^^^^^^^^^^^^^^^^
+  29 |      <el-aside width="200px">Aside</el-aside>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  30 |      <el-container>
+     |  ^^^^^^^^^^^^^^^^^^
+  31 |        <el-main>Main</el-main>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  32 |        <el-footer>Footer</el-footer>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  33 |      </el-container>
+     |  ^^^^^^^^^^^^^^^^^^^
+  34 |    </el-container>
+     |  ^^^^^^^^^^^^^^^^^
+  35 |  </el-container>
+     |  ^^^^^^^^^^^^^^^
+  36 |  
+     |  
+  37 |  <el-container>
+     |  ^^^^^^^^^^^^^^
+  38 |    <el-aside width="200px">Aside</el-aside>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  39 |    <el-container>
+     |  ^^^^^^^^^^^^^^^^
+  40 |      <el-header>Header</el-header>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  41 |      <el-main>Main</el-main>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  42 |    </el-container>
+     |  ^^^^^^^^^^^^^^^^^
+  43 |  </el-container>
+     |  ^^^^^^^^^^^^^^^
+  44 |  
+     |  
+  45 |  <el-container>
+     |  ^^^^^^^^^^^^^^
+  46 |    <el-aside width="200px">Aside</el-aside>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  47 |    <el-container>
+     |  ^^^^^^^^^^^^^^^^
+  48 |      <el-header>Header</el-header>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  49 |      <el-main>Main</el-main>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  50 |      <el-footer>Footer</el-footer>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  51 |    </el-container>
+     |  ^^^^^^^^^^^^^^^^^
+  52 |  </el-container>
+     |  ^^^^^^^^^^^^^^^
+  53 |  
+     |  
+  54 |  
+     |  
+  55 |  
+     |  
+  56 |  
+     |  
+  57 |      <el-container class="wrapper">
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  58 |          <el-header height="50px" :style="{'background-color': '#6d1369'}"></el-header>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  59 |          <el-aside class="menu" width="250px">
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  60 |              <el-menu default-active="2"  class="el-menu-vertical-demo">
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  61 |                  <el-submenu index="1" collapse-transition="true">
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  62 |                      <template slot="title">
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  63 |                          <i class="el-icon-menu"></i>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  64 |                          <span>Học online</span>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  65 |                      </template>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  66 |                      <el-menu-item index="1-1">
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  67 |                          <i class="el-icon-check"></i>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  68 |                          Quản lý học viên
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  69 |                      </el-menu-item>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  70 |                      <el-menu-item index="1-2">
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  71 |                          <i class="el-icon-check"></i>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  72 |                          Quản lý khóa học
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  73 |                      </el-menu-item>    
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  74 |                  </el-submenu>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  75 |                  <el-submenu index="2">
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  76 |                      <template slot="title">
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  77 |                          <i class="el-icon-menu"></i>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  78 |                          <span>Luyện thi online</span>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  79 |                      </template>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  80 |                      <el-menu-item index="2-1">
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  81 |                          <i class="el-icon-check"></i>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  82 |                          <span>Quản lý danh mục</span>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  83 |                      </el-menu-item>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  84 |                      <el-menu-item index="2-2">
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  85 |                          <i class="el-icon-check"></i>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  86 |                          <span>Ngân hàng đề thi</span>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  87 |                      </el-menu-item>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  88 |                      <el-menu-item index="2-3">
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  89 |                          <i class="el-icon-check"></i>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  90 |                          <span>Quản lý thành viên</span>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  91 |                      </el-menu-item>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  92 |                  </el-submenu>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  93 |                  <el-submenu index="3">
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  94 |                      <template slot="title">
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  95 |                          <i class="el-icon-setting"></i>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  96 |                          <span>Hệ thống</span>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  97 |                      </template>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  98 |                      <el-menu-item index="3-1">
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  99 |                          <i class="el-icon-check"></i>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  100|                          <span>Quản lý danh mục</span>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  101|                      </el-menu-item>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  102|                      <el-menu-item index="3-2">
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  103|                          <i class="el-icon-check"></i>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  104|                          <span>Ngân hàng đề thi</span>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  105|                      </el-menu-item>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  106|                      <el-menu-item index="3-3">
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  107|                          <i class="el-icon-check"></i>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  108|                          <span>Quản lý thành viên</span>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  109|                      </el-menu-item>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  110|                  </el-submenu>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  111|              </el-menu>
+     |  ^^^^^^^^^^^^^^^^^^^^^^
+  112|          </el-aside>
+     |  ^^^^^^^^^^^^^^^^^^^
+  113|          <el-main class="content"></el-main>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  114|      </el-container>
+     |  ^^^^^^^^^^^^^^^^^^^
+
+
+ @ ./resources/js/views/App.vue?vue&type=template&id=91ac6b5c& 1:0-207 1:0-207
+ @ ./resources/js/views/App.vue
+ @ ./resources/js/app.js
+ @ multi ./resources/js/app.js ./resources/sass/app.scss
+
+       Asset      Size   Chunks             Chunk Names
+/css/app.css   0 bytes  /js/app  [emitted]  /js/app
+  /js/app.js  5.25 MiB  /js/app  [emitted]  /js/app
+ + 2 hidden assets
+
+ERROR in ./resources/js/views/App.vue?vue&type=template&id=91ac6b5c& (./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/views/App.vue?vue&type=template&id=91ac6b5c&)
+Module Error (from ./node_modules/vue-loader/lib/loaders/templateLoader.js):
+(Emitted value instead of an instance of Error) 
+
+  Errors compiling template:
+
+  Component template should contain exactly one root element. If you are using v-if on multiple elements, use v-else-if to chain them instead.
+
+  4  |    <el-main>Main</el-main>
+  5  |  </el-container>
+  6  |  
+     |   
+  7  |  <el-container>
+     |  ^^^^^^^^^^^^^^
+  8  |    <el-header>Header</el-header>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  9  |    <el-main>Main</el-main>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |    <el-footer>Footer</el-footer>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 |  </el-container>
+     |  ^^^^^^^^^^^^^^^
+  12 |  
+     |  
+  13 |  <el-container>
+     |  ^^^^^^^^^^^^^^
+  14 |    <el-aside width="200px">Aside</el-aside>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  15 |    <el-main>Main</el-main>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^
+  16 |  </el-container>
+     |  ^^^^^^^^^^^^^^^
+  17 |  
+     |  
+  18 |  <el-container>
+     |  ^^^^^^^^^^^^^^
+  19 |    <el-header>Header</el-header>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  20 |    <el-container>
+     |  ^^^^^^^^^^^^^^^^
+  21 |      <el-aside width="200px">Aside</el-aside>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  22 |      <el-main>Main</el-main>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  23 |    </el-container>
+     |  ^^^^^^^^^^^^^^^^^
+  24 |  </el-container>
+     |  ^^^^^^^^^^^^^^^
+  25 |  
+     |  
+  26 |  <el-container>
+     |  ^^^^^^^^^^^^^^
+  27 |    <el-header>Header</el-header>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  28 |    <el-container>
+     |  ^^^^^^^^^^^^^^^^
+  29 |      <el-aside width="200px">Aside</el-aside>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  30 |      <el-container>
+     |  ^^^^^^^^^^^^^^^^^^
+  31 |        <el-main>Main</el-main>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  32 |        <el-footer>Footer</el-footer>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  33 |      </el-container>
+     |  ^^^^^^^^^^^^^^^^^^^
+  34 |    </el-container>
+     |  ^^^^^^^^^^^^^^^^^
+  35 |  </el-container>
+     |  ^^^^^^^^^^^^^^^
+  36 |  
+     |  
+  37 |  <el-container>
+     |  ^^^^^^^^^^^^^^
+  38 |    <el-aside width="200px">Aside</el-aside>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  39 |    <el-container>
+     |  ^^^^^^^^^^^^^^^^
+  40 |      <el-header>Header</el-header>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  41 |      <el-main>Main</el-main>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  42 |    </el-container>
+     |  ^^^^^^^^^^^^^^^^^
+  43 |  </el-container>
+     |  ^^^^^^^^^^^^^^^
+  44 |  
+     |  
+  45 |  <el-container>
+     |  ^^^^^^^^^^^^^^
+  46 |    <el-aside width="200px">Aside</el-aside>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  47 |    <el-container>
+     |  ^^^^^^^^^^^^^^^^
+  48 |      <el-header>Header</el-header>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  49 |      <el-main>Main</el-main>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  50 |      <el-footer>Footer</el-footer>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  51 |    </el-container>
+     |  ^^^^^^^^^^^^^^^^^
+  52 |  </el-container>
+     |  ^^^^^^^^^^^^^^^
+  53 |  
+     |  
+  54 |  
+     |  
+  55 |  
+     |  
+  56 |  
+     |  
+  57 |      <el-container class="wrapper">
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  58 |          <el-header height="50px" :style="{'background-color': '#6d1369'}"></el-header>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  59 |          <el-aside class="menu" width="250px">
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  60 |              <el-menu default-active="2"  class="el-menu-vertical-demo">
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  61 |                  <el-submenu index="1" collapse-transition="true">
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  62 |                      <template slot="title">
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  63 |                          <i class="el-icon-menu"></i>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  64 |                          <span>Học online</span>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  65 |                      </template>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  66 |                      <el-menu-item index="1-1">
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  67 |                          <i class="el-icon-check"></i>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  68 |                          Quản lý học viên
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  69 |                      </el-menu-item>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  70 |                      <el-menu-item index="1-2">
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  71 |                          <i class="el-icon-check"></i>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  72 |                          Quản lý khóa học
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  73 |                      </el-menu-item>    
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  74 |                  </el-submenu>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  75 |                  <el-submenu index="2">
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  76 |                      <template slot="title">
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  77 |                          <i class="el-icon-menu"></i>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  78 |                          <span>Luyện thi online</span>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  79 |                      </template>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  80 |                      <el-menu-item index="2-1">
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  81 |                          <i class="el-icon-check"></i>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  82 |                          <span>Quản lý danh mục</span>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  83 |                      </el-menu-item>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  84 |                      <el-menu-item index="2-2">
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  85 |                          <i class="el-icon-check"></i>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  86 |                          <span>Ngân hàng đề thi</span>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  87 |                      </el-menu-item>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  88 |                      <el-menu-item index="2-3">
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  89 |                          <i class="el-icon-check"></i>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  90 |                          <span>Quản lý thành viên</span>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  91 |                      </el-menu-item>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  92 |                  </el-submenu>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  93 |                  <el-submenu index="3">
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  94 |                      <template slot="title">
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  95 |                          <i class="el-icon-setting"></i>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  96 |                          <span>Hệ thống</span>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  97 |                      </template>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  98 |                      <el-menu-item index="3-1">
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  99 |                          <i class="el-icon-check"></i>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  100|                          <span>Quản lý danh mục</span>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  101|                      </el-menu-item>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  102|                      <el-menu-item index="3-2">
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  103|                          <i class="el-icon-check"></i>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  104|                          <span>Ngân hàng đề thi</span>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  105|                      </el-menu-item>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  106|                      <el-menu-item index="3-3">
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  107|                          <i class="el-icon-check"></i>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  108|                          <span>Quản lý thành viên</span>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  109|                      </el-menu-item>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  110|                  </el-submenu>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  111|              </el-menu>
+     |  ^^^^^^^^^^^^^^^^^^^^^^
+  112|          </el-aside>
+     |  ^^^^^^^^^^^^^^^^^^^
+  113|          <el-main class="content"></el-main>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  114|      </el-container>
+     |  ^^^^^^^^^^^^^^^^^^^
+
+ @ ./resources/js/views/App.vue?vue&type=template&id=91ac6b5c& 1:0-207 1:0-207
+ @ ./resources/js/views/App.vue
+ @ ./resources/js/app.js
+ @ multi ./resources/js/app.js ./resources/sass/app.scss
+ WAIT  Compiling...11:33:31 PM
+
+ ERROR  Failed to compile with 1 errors11:33:32 PM
+
+ error  in ./resources/js/views/App.vue?vue&type=template&id=91ac6b5c&
+
+Module Error (from ./node_modules/vue-loader/lib/loaders/templateLoader.js):
+(Emitted value instead of an instance of Error) 
+
+  Errors compiling template:
+
+  Component template should contain exactly one root element. If you are using v-if on multiple elements, use v-else-if to chain them instead.
+
+  4  |    <el-main>Main</el-main>
+  5  |  </el-container>
+  6  |  
+     |   
+  7  |  <el-container>
+     |  ^^^^^^^^^^^^^^
+  8  |    <el-header>Header</el-header>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  9  |    <el-main>Main</el-main>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |    <el-footer>Footer</el-footer>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 |  </el-container>
+     |  ^^^^^^^^^^^^^^^
+  12 |  
+     |  
+  13 |  <el-container>
+     |  ^^^^^^^^^^^^^^
+  14 |    <el-aside width="200px">Aside</el-aside>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  15 |    <el-main>Main</el-main>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^
+  16 |  </el-container>
+     |  ^^^^^^^^^^^^^^^
+  17 |  
+     |  
+  18 |  <el-container>
+     |  ^^^^^^^^^^^^^^
+  19 |    <el-header>Header</el-header>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  20 |    <el-container>
+     |  ^^^^^^^^^^^^^^^^
+  21 |      <el-aside width="200px">Aside</el-aside>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  22 |      <el-main>Main</el-main>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  23 |    </el-container>
+     |  ^^^^^^^^^^^^^^^^^
+  24 |  </el-container>
+     |  ^^^^^^^^^^^^^^^
+  25 |  
+     |  
+  26 |  <el-container>
+     |  ^^^^^^^^^^^^^^
+  27 |    <el-header>Header</el-header>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  28 |    <el-container>
+     |  ^^^^^^^^^^^^^^^^
+  29 |      <el-aside width="200px">Aside</el-aside>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  30 |      <el-container>
+     |  ^^^^^^^^^^^^^^^^^^
+  31 |        <el-main>Main</el-main>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  32 |        <el-footer>Footer</el-footer>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  33 |      </el-container>
+     |  ^^^^^^^^^^^^^^^^^^^
+  34 |    </el-container>
+     |  ^^^^^^^^^^^^^^^^^
+  35 |  </el-container>
+     |  ^^^^^^^^^^^^^^^
+  36 |  
+     |  
+  37 |  <el-container>
+     |  ^^^^^^^^^^^^^^
+  38 |    <el-aside width="200px">Aside</el-aside>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  39 |    <el-container>
+     |  ^^^^^^^^^^^^^^^^
+  40 |      <el-header>Header</el-header>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  41 |      <el-main>Main</el-main>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  42 |    </el-container>
+     |  ^^^^^^^^^^^^^^^^^
+  43 |  </el-container>
+     |  ^^^^^^^^^^^^^^^
+  44 |  
+     |  
+  45 |  <el-container>
+     |  ^^^^^^^^^^^^^^
+  46 |    <el-aside width="200px">Aside</el-aside>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  47 |    <el-container>
+     |  ^^^^^^^^^^^^^^^^
+  48 |      <el-header>Header</el-header>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  49 |      <el-main>Main</el-main>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  50 |      <el-footer>Footer</el-footer>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  51 |    </el-container>
+     |  ^^^^^^^^^^^^^^^^^
+  52 |  </el-container>
+     |  ^^^^^^^^^^^^^^^
+  53 |  
+     |  
+  54 |  
+     |  
+  55 |  
+     |  
+  56 |  
+     |  
+  57 |      <el-container class="wrapper">
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  58 |          <el-header height="50px" :style="{'background-color': '#6d1369'}"></el-header>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  59 |          <el-aside class="menu" width="250px">
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  60 |              <el-menu default-active="2"  class="el-menu-vertical-demo">
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  61 |                  <el-submenu index="1" collapse-transition="true">
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  62 |                      <template slot="title">
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  63 |                          <i class="el-icon-menu"></i>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  64 |                          <span>Học online</span>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  65 |                      </template>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  66 |                      <el-menu-item index="1-1">
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  67 |                          <i class="el-icon-check"></i>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  68 |                          Quản lý học viên
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  69 |                      </el-menu-item>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  70 |                      <el-menu-item index="1-2">
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  71 |                          <i class="el-icon-check"></i>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  72 |                          Quản lý khóa học
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  73 |                      </el-menu-item>    
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  74 |                  </el-submenu>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  75 |                  <el-submenu index="2">
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  76 |                      <template slot="title">
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  77 |                          <i class="el-icon-menu"></i>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  78 |                          <span>Luyện thi online</span>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  79 |                      </template>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  80 |                      <el-menu-item index="2-1">
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  81 |                          <i class="el-icon-check"></i>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  82 |                          <span>Quản lý danh mục</span>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  83 |                      </el-menu-item>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  84 |                      <el-menu-item index="2-2">
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  85 |                          <i class="el-icon-check"></i>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  86 |                          <span>Ngân hàng đề thi</span>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  87 |                      </el-menu-item>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  88 |                      <el-menu-item index="2-3">
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  89 |                          <i class="el-icon-check"></i>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  90 |                          <span>Quản lý thành viên</span>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  91 |                      </el-menu-item>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  92 |                  </el-submenu>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  93 |                  <el-submenu index="3">
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  94 |                      <template slot="title">
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  95 |                          <i class="el-icon-setting"></i>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  96 |                          <span>Hệ thống</span>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  97 |                      </template>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  98 |                      <el-menu-item index="3-1">
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  99 |                          <i class="el-icon-check"></i>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  100|                          <span>Quản lý danh mục</span>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  101|                      </el-menu-item>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  102|                      <el-menu-item index="3-2">
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  103|                          <i class="el-icon-check"></i>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  104|                          <span>Ngân hàng đề thi</span>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  105|                      </el-menu-item>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  106|                      <el-menu-item index="3-3">
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  107|                          <i class="el-icon-check"></i>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  108|                          <span>Quản lý thành viên</span>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  109|                      </el-menu-item>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  110|                  </el-submenu>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  111|              </el-menu>
+     |  ^^^^^^^^^^^^^^^^^^^^^^
+  112|          </el-aside>
+     |  ^^^^^^^^^^^^^^^^^^^
+  113|          <el-main class="content"></el-main>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  114|      </el-container>
+     |  ^^^^^^^^^^^^^^^^^^^
+
+
+ @ ./resources/js/views/App.vue?vue&type=template&id=91ac6b5c& 1:0-207 1:0-207
+ @ ./resources/js/views/App.vue
+ @ ./resources/js/app.js
+ @ multi ./resources/js/app.js ./resources/sass/app.scss
+
+       Asset      Size   Chunks             Chunk Names
+/css/app.css   0 bytes  /js/app  [emitted]  /js/app
+  /js/app.js  5.25 MiB  /js/app  [emitted]  /js/app
+ + 2 hidden assets
+
+ERROR in ./resources/js/views/App.vue?vue&type=template&id=91ac6b5c& (./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/views/App.vue?vue&type=template&id=91ac6b5c&)
+Module Error (from ./node_modules/vue-loader/lib/loaders/templateLoader.js):
+(Emitted value instead of an instance of Error) 
+
+  Errors compiling template:
+
+  Component template should contain exactly one root element. If you are using v-if on multiple elements, use v-else-if to chain them instead.
+
+  4  |    <el-main>Main</el-main>
+  5  |  </el-container>
+  6  |  
+     |   
+  7  |  <el-container>
+     |  ^^^^^^^^^^^^^^
+  8  |    <el-header>Header</el-header>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  9  |    <el-main>Main</el-main>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |    <el-footer>Footer</el-footer>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 |  </el-container>
+     |  ^^^^^^^^^^^^^^^
+  12 |  
+     |  
+  13 |  <el-container>
+     |  ^^^^^^^^^^^^^^
+  14 |    <el-aside width="200px">Aside</el-aside>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  15 |    <el-main>Main</el-main>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^
+  16 |  </el-container>
+     |  ^^^^^^^^^^^^^^^
+  17 |  
+     |  
+  18 |  <el-container>
+     |  ^^^^^^^^^^^^^^
+  19 |    <el-header>Header</el-header>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  20 |    <el-container>
+     |  ^^^^^^^^^^^^^^^^
+  21 |      <el-aside width="200px">Aside</el-aside>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  22 |      <el-main>Main</el-main>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  23 |    </el-container>
+     |  ^^^^^^^^^^^^^^^^^
+  24 |  </el-container>
+     |  ^^^^^^^^^^^^^^^
+  25 |  
+     |  
+  26 |  <el-container>
+     |  ^^^^^^^^^^^^^^
+  27 |    <el-header>Header</el-header>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  28 |    <el-container>
+     |  ^^^^^^^^^^^^^^^^
+  29 |      <el-aside width="200px">Aside</el-aside>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  30 |      <el-container>
+     |  ^^^^^^^^^^^^^^^^^^
+  31 |        <el-main>Main</el-main>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  32 |        <el-footer>Footer</el-footer>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  33 |      </el-container>
+     |  ^^^^^^^^^^^^^^^^^^^
+  34 |    </el-container>
+     |  ^^^^^^^^^^^^^^^^^
+  35 |  </el-container>
+     |  ^^^^^^^^^^^^^^^
+  36 |  
+     |  
+  37 |  <el-container>
+     |  ^^^^^^^^^^^^^^
+  38 |    <el-aside width="200px">Aside</el-aside>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  39 |    <el-container>
+     |  ^^^^^^^^^^^^^^^^
+  40 |      <el-header>Header</el-header>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  41 |      <el-main>Main</el-main>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  42 |    </el-container>
+     |  ^^^^^^^^^^^^^^^^^
+  43 |  </el-container>
+     |  ^^^^^^^^^^^^^^^
+  44 |  
+     |  
+  45 |  <el-container>
+     |  ^^^^^^^^^^^^^^
+  46 |    <el-aside width="200px">Aside</el-aside>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  47 |    <el-container>
+     |  ^^^^^^^^^^^^^^^^
+  48 |      <el-header>Header</el-header>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  49 |      <el-main>Main</el-main>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  50 |      <el-footer>Footer</el-footer>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  51 |    </el-container>
+     |  ^^^^^^^^^^^^^^^^^
+  52 |  </el-container>
+     |  ^^^^^^^^^^^^^^^
+  53 |  
+     |  
+  54 |  
+     |  
+  55 |  
+     |  
+  56 |  
+     |  
+  57 |      <el-container class="wrapper">
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  58 |          <el-header height="50px" :style="{'background-color': '#6d1369'}"></el-header>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  59 |          <el-aside class="menu" width="250px">
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  60 |              <el-menu default-active="2"  class="el-menu-vertical-demo">
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  61 |                  <el-submenu index="1" collapse-transition="true">
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  62 |                      <template slot="title">
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  63 |                          <i class="el-icon-menu"></i>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  64 |                          <span>Học online</span>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  65 |                      </template>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  66 |                      <el-menu-item index="1-1">
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  67 |                          <i class="el-icon-check"></i>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  68 |                          Quản lý học viên
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  69 |                      </el-menu-item>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  70 |                      <el-menu-item index="1-2">
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  71 |                          <i class="el-icon-check"></i>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  72 |                          Quản lý khóa học
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  73 |                      </el-menu-item>    
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  74 |                  </el-submenu>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  75 |                  <el-submenu index="2">
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  76 |                      <template slot="title">
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  77 |                          <i class="el-icon-menu"></i>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  78 |                          <span>Luyện thi online</span>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  79 |                      </template>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  80 |                      <el-menu-item index="2-1">
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  81 |                          <i class="el-icon-check"></i>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  82 |                          <span>Quản lý danh mục</span>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  83 |                      </el-menu-item>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  84 |                      <el-menu-item index="2-2">
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  85 |                          <i class="el-icon-check"></i>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  86 |                          <span>Ngân hàng đề thi</span>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  87 |                      </el-menu-item>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  88 |                      <el-menu-item index="2-3">
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  89 |                          <i class="el-icon-check"></i>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  90 |                          <span>Quản lý thành viên</span>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  91 |                      </el-menu-item>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  92 |                  </el-submenu>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  93 |                  <el-submenu index="3">
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  94 |                      <template slot="title">
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  95 |                          <i class="el-icon-setting"></i>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  96 |                          <span>Hệ thống</span>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  97 |                      </template>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  98 |                      <el-menu-item index="3-1">
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  99 |                          <i class="el-icon-check"></i>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  100|                          <span>Quản lý danh mục</span>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  101|                      </el-menu-item>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  102|                      <el-menu-item index="3-2">
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  103|                          <i class="el-icon-check"></i>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  104|                          <span>Ngân hàng đề thi</span>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  105|                      </el-menu-item>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  106|                      <el-menu-item index="3-3">
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  107|                          <i class="el-icon-check"></i>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  108|                          <span>Quản lý thành viên</span>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  109|                      </el-menu-item>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  110|                  </el-submenu>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  111|              </el-menu>
+     |  ^^^^^^^^^^^^^^^^^^^^^^
+  112|          </el-aside>
+     |  ^^^^^^^^^^^^^^^^^^^
+  113|          <el-main class="content"></el-main>
+     |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  114|      </el-container>
+     |  ^^^^^^^^^^^^^^^^^^^
+
+ @ ./resources/js/views/App.vue?vue&type=template&id=91ac6b5c& 1:0-207 1:0-207
+ @ ./resources/js/views/App.vue
+ @ ./resources/js/app.js
+ @ multi ./resources/js/app.js ./resources/sass/app.scss
+ WAIT  Compiling...11:34:07 PM
+
+ DONE  Compiled successfully in 655ms11:34:08 PM
+
+       Asset      Size   Chunks             Chunk Names
+/css/app.css   0 bytes  /js/app  [emitted]  /js/app
+  /js/app.js  5.26 MiB  /js/app  [emitted]  /js/app
+ + 2 hidden assets
+ WAIT  Compiling...11:34:46 PM
+
+ DONE  Compiled successfully in 666ms11:34:47 PM
+
+       Asset      Size   Chunks             Chunk Names
+/css/app.css   0 bytes  /js/app  [emitted]  /js/app
+  /js/app.js  5.26 MiB  /js/app  [emitted]  /js/app
+ + 2 hidden assets
+ WAIT  Compiling...11:34:47 PM
+
+ DONE  Compiled successfully in 590ms11:34:48 PM
+
+ WAIT  Compiling...11:35:53 PM
+
+ DONE  Compiled successfully in 546ms11:35:54 PM
+
+       Asset      Size   Chunks             Chunk Names
+/css/app.css   0 bytes  /js/app  [emitted]  /js/app
+  /js/app.js  5.26 MiB  /js/app  [emitted]  /js/app
+ + 2 hidden assets
+ WAIT  Compiling...11:37:20 PM
+
+ DONE  Compiled successfully in 727ms11:37:21 PM
+
+       Asset      Size   Chunks             Chunk Names
+/css/app.css   0 bytes  /js/app  [emitted]  /js/app
+  /js/app.js  5.26 MiB  /js/app  [emitted]  /js/app
+ + 2 hidden assets
+ WAIT  Compiling...11:38:32 PM
+
+ DONE  Compiled successfully in 617ms11:38:33 PM
+
+       Asset      Size   Chunks             Chunk Names
+/css/app.css   0 bytes  /js/app  [emitted]  /js/app
+  /js/app.js  5.26 MiB  /js/app  [emitted]  /js/app
+ + 2 hidden assets
+ WAIT  Compiling...11:39:00 PM
+
+ DONE  Compiled successfully in 730ms11:39:01 PM
+
+       Asset      Size   Chunks             Chunk Names
+/css/app.css   0 bytes  /js/app  [emitted]  /js/app
+  /js/app.js  5.26 MiB  /js/app  [emitted]  /js/app
+ + 2 hidden assets
+ ERROR  Failed to compile with 1 errors11:40:00 PM
+
+ error  in ./resources/sass/element-variables.scss
+
+Module build failed (from ./node_modules/sass-loader/dist/cjs.js):
+Error: ENOENT: no such file or directory, open 'D:\Project\AppServ\www\sextoy\resources\sass\element-variables.scss'
+
+ @ ./resources/sass/element-variables.scss 2:14-200
+ @ ./resources/js/app.js
+ @ multi ./resources/js/app.js ./resources/sass/app.scss
+
+       Asset      Size   Chunks             Chunk Names
+/css/app.css   0 bytes  /js/app  [emitted]  /js/app
+  /js/app.js  5.26 MiB  /js/app  [emitted]  /js/app
+ + 2 hidden assets
+
+ERROR in ./resources/sass/element-variables.scss (./node_modules/css-loader!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js??ref--7-3!./resources/sass/element-variables.scss)
+Module build failed (from ./node_modules/sass-loader/dist/cjs.js):
+Error: ENOENT: no such file or directory, open 'D:\Project\AppServ\www\sextoy\resources\sass\element-variables.scss'
+ @ ./resources/sass/element-variables.scss 2:14-200
+ @ ./resources/js/app.js
+ @ multi ./resources/js/app.js ./resources/sass/app.scss
+ WAIT  Compiling...11:40:02 PM
+
+ ERROR  Failed to compile with 1 errors11:40:03 PM
+
+ error  in ./resources/sass/element-variables.scss
+
+Module build failed (from ./node_modules/sass-loader/dist/cjs.js):
+Error: ENOENT: no such file or directory, open 'D:\Project\AppServ\www\sextoy\resources\sass\element-variables.scss'
+
+ @ ./resources/sass/element-variables.scss 2:14-200
+ @ ./resources/js/app.js
+ @ multi ./resources/js/app.js ./resources/sass/app.scss
+
+       Asset       Size   Chunks             Chunk Names
+/css/app.css  190 bytes  /js/app  [emitted]  /js/app
+ + 3 hidden assets
+
+ERROR in ./resources/sass/element-variables.scss (./node_modules/css-loader!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js??ref--7-3!./resources/sass/element-variables.scss)
+Module build failed (from ./node_modules/sass-loader/dist/cjs.js):
+Error: ENOENT: no such file or directory, open 'D:\Project\AppServ\www\sextoy\resources\sass\element-variables.scss'
+ @ ./resources/sass/element-variables.scss 2:14-200
+ @ ./resources/js/app.js
+ @ multi ./resources/js/app.js ./resources/sass/app.scss
+ WAIT  Compiling...11:40:14 PM
+
+ ERROR  Failed to compile with 1 errors11:40:14 PM
+
+ error  in ./resources/sass/element-variables.scss
+
+Module build failed (from ./node_modules/sass-loader/dist/cjs.js):
+Error: ENOENT: no such file or directory, open 'D:\Project\AppServ\www\sextoy\resources\sass\element-variables.scss'
+
+ @ ./resources/sass/element-variables.scss 2:14-200
+ @ ./resources/js/app.js
+ @ multi ./resources/js/app.js ./resources/sass/app.scss
+
+       Asset     Size   Chunks             Chunk Names
+/css/app.css  0 bytes  /js/app  [emitted]  /js/app
+ + 3 hidden assets
+
+ERROR in ./resources/sass/element-variables.scss (./node_modules/css-loader!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js??ref--7-3!./resources/sass/element-variables.scss)
+Module build failed (from ./node_modules/sass-loader/dist/cjs.js):
+Error: ENOENT: no such file or directory, open 'D:\Project\AppServ\www\sextoy\resources\sass\element-variables.scss'
+ @ ./resources/sass/element-variables.scss 2:14-200
+ @ ./resources/js/app.js
+ @ multi ./resources/js/app.js ./resources/sass/app.scss
+ WAIT  Compiling...11:40:24 PM
+
+ DONE  Compiled successfully in 412ms11:40:25 PM
+
+       Asset      Size   Chunks             Chunk Names
+/css/app.css   0 bytes  /js/app  [emitted]  /js/app
+  /js/app.js  5.25 MiB  /js/app  [emitted]  /js/app
+ + 2 hidden assets
+ WAIT  Compiling...11:40:27 PM
+
+ DONE  Compiled successfully in 231ms11:40:28 PM
+
+       Asset       Size   Chunks             Chunk Names
+/css/app.css  190 bytes  /js/app  [emitted]  /js/app
+ + 3 hidden assets
+ WAIT  Compiling...11:42:18 PM
+
+ DONE  Compiled successfully in 283ms11:42:18 PM
+
+       Asset       Size   Chunks             Chunk Names
+/css/app.css  190 bytes  /js/app  [emitted]  /js/app
+ + 3 hidden assets
+ WAIT  Compiling...11:42:24 PM
+
+ DONE  Compiled successfully in 389ms11:42:25 PM
+
+       Asset     Size   Chunks             Chunk Names
+/css/app.css  0 bytes  /js/app  [emitted]  /js/app
+ + 3 hidden assets
+ WAIT  Compiling...11:42:38 PM
+
+ DONE  Compiled successfully in 227ms11:42:39 PM
+
+       Asset       Size   Chunks             Chunk Names
+/css/app.css  190 bytes  /js/app  [emitted]  /js/app
+ + 3 hidden assets
+ WAIT  Compiling...11:45:15 PM
+
+ DONE  Compiled successfully in 386ms11:45:15 PM
+
+       Asset       Size   Chunks             Chunk Names
+/css/app.css  190 bytes  /js/app  [emitted]  /js/app
+ + 3 hidden assets
+ WAIT  Compiling...11:45:50 PM
+
+ DONE  Compiled successfully in 525ms11:45:51 PM
+
+       Asset       Size   Chunks             Chunk Names
+/css/app.css  190 bytes  /js/app  [emitted]  /js/app
+  /js/app.js   5.25 MiB  /js/app  [emitted]  /js/app
+ + 2 hidden assets
+ WAIT  Compiling...11:46:07 PM
+
+ DONE  Compiled successfully in 301ms11:46:08 PM
+
+       Asset       Size   Chunks             Chunk Names
+/css/app.css  224 bytes  /js/app  [emitted]  /js/app
+ + 3 hidden assets
+ WAIT  Compiling...11:47:23 PM
+
+ DONE  Compiled successfully in 240ms11:47:24 PM
+
+       Asset       Size   Chunks             Chunk Names
+/css/app.css  361 bytes  /js/app  [emitted]  /js/app
+ + 3 hidden assets
+ WAIT  Compiling...11:47:35 PM
+
+ DONE  Compiled successfully in 262ms11:47:35 PM
+
+       Asset       Size   Chunks             Chunk Names
+/css/app.css  361 bytes  /js/app  [emitted]  /js/app
+ + 3 hidden assets
+ ERROR  Failed to compile with 1 errors11:48:04 PM
+
+ error  in ./theme/index.css
+
+Module build failed (from ./node_modules/postcss-loader/src/index.js):
+Error: ENOENT: no such file or directory, open 'D:\Project\AppServ\www\sextoy\theme\index.css'
+
+ @ ./theme/index.css 2:14-138
+ @ ./resources/js/app.js
+ @ multi ./resources/js/app.js ./resources/sass/app.scss
+
+       Asset       Size   Chunks             Chunk Names
+/css/app.css  361 bytes  /js/app  [emitted]  /js/app
+  /js/app.js   3.95 MiB  /js/app  [emitted]  /js/app
+
+ERROR in ./theme/index.css (./node_modules/css-loader??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./theme/index.css)
+Module build failed (from ./node_modules/postcss-loader/src/index.js):
+Error: ENOENT: no such file or directory, open 'D:\Project\AppServ\www\sextoy\theme\index.css'
+ @ ./theme/index.css 2:14-138
+ @ ./resources/js/app.js
+ @ multi ./resources/js/app.js ./resources/sass/app.scss
+ WAIT  Compiling...11:48:11 PM
+
+ DONE  Compiled successfully in 472ms11:48:11 PM
+
+       Asset       Size   Chunks             Chunk Names
+/css/app.css  361 bytes  /js/app  [emitted]  /js/app
+  /js/app.js   3.94 MiB  /js/app  [emitted]  /js/app
+ WAIT  Compiling...11:48:11 PM
+
+ DONE  Compiled successfully in 259ms11:48:12 PM
+
+ WAIT  Compiling...11:48:16 PM
+
+ DONE  Compiled successfully in 257ms11:48:16 PM
+
+       Asset       Size   Chunks             Chunk Names
+/css/app.css  361 bytes  /js/app  [emitted]  /js/app
+  /js/app.js   2.68 MiB  /js/app  [emitted]  /js/app
+ WAIT  Compiling...11:48:34 PM
+
+ DONE  Compiled successfully in 3949ms11:48:38 PM
+
+       Asset       Size   Chunks             Chunk Names
+/css/app.css  361 bytes  /js/app  [emitted]  /js/app
+  /js/app.js   3.94 MiB  /js/app  [emitted]  /js/app
+ WAIT  Compiling...11:48:38 PM
+
+ DONE  Compiled successfully in 474ms11:48:39 PM
+
+       Asset       Size   Chunks             Chunk Names
+/css/app.css  361 bytes  /js/app  [emitted]  /js/app
+  /js/app.js   3.94 MiB  /js/app  [emitted]  /js/app
+ WAIT  Compiling...11:49:04 PM
+
+ ERROR  Failed to compile with 1 errors11:49:04 PM
+
+ error  in ./theme/index.css
+
+Module build failed (from ./node_modules/postcss-loader/src/index.js):
+Error: ENOENT: no such file or directory, open 'D:\Project\AppServ\www\sextoy\theme\index.css'
+
+ @ ./theme/index.css 2:14-138
+ @ ./resources/js/app.js
+ @ multi ./resources/js/app.js ./resources/sass/app.scss
+
+       Asset       Size   Chunks             Chunk Names
+/css/app.css  361 bytes  /js/app  [emitted]  /js/app
+  /js/app.js   3.95 MiB  /js/app  [emitted]  /js/app
+
+ERROR in ./theme/index.css (./node_modules/css-loader??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./theme/index.css)
+Module build failed (from ./node_modules/postcss-loader/src/index.js):
+Error: ENOENT: no such file or directory, open 'D:\Project\AppServ\www\sextoy\theme\index.css'
+ @ ./theme/index.css 2:14-138
+ @ ./resources/js/app.js
+ @ multi ./resources/js/app.js ./resources/sass/app.scss
+ WAIT  Compiling...11:49:11 PM
+
+ ERROR  Failed to compile with 1 errors11:49:14 PM
+
+ error  in ./resources/sass/element-variables.scss
+
+Module build failed (from ./node_modules/sass-loader/dist/cjs.js):
+Error: ENOENT: no such file or directory, open 'D:\Project\AppServ\www\sextoy\resources\sass\element-variables.scss'
+
+ @ ./resources/sass/element-variables.scss 2:14-200
+ @ ./resources/js/app.js
+ @ multi ./resources/js/app.js ./resources/sass/app.scss
+
+                                                    Asset       Size   Chunks             Chunk Names
+                                             /css/app.css  361 bytes  /js/app  [emitted]  /js/app
+                                               /js/app.js   5.25 MiB  /js/app  [emitted]  /js/app
+ fonts/element-icons.ttf?732389ded34cb9c52dd88271f1345af9   54.6 KiB           [emitted]  
+fonts/element-icons.woff?535877f50039c0cb49a6196a5b7517cd   27.5 KiB           [emitted]  
+
+ERROR in ./resources/sass/element-variables.scss (./node_modules/css-loader!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js??ref--7-3!./resources/sass/element-variables.scss)
+Module build failed (from ./node_modules/sass-loader/dist/cjs.js):
+Error: ENOENT: no such file or directory, open 'D:\Project\AppServ\www\sextoy\resources\sass\element-variables.scss'
+ @ ./resources/sass/element-variables.scss 2:14-200
+ @ ./resources/js/app.js
+ @ multi ./resources/js/app.js ./resources/sass/app.scss
+ WAIT  Compiling...11:49:17 PM
+
+ DONE  Compiled successfully in 411ms11:49:17 PM
+
+       Asset       Size   Chunks             Chunk Names
+/css/app.css  361 bytes  /js/app  [emitted]  /js/app
+  /js/app.js   5.25 MiB  /js/app  [emitted]  /js/app
+ + 2 hidden assets
+ ERROR  Failed to compile with 1 errors11:49:54 PM
+
+ error  in ./theme/index.css
+
+Module build failed (from ./node_modules/postcss-loader/src/index.js):
+Error: ENOENT: no such file or directory, open 'D:\Project\AppServ\www\sextoy\theme\index.css'
+
+ @ ./theme/index.css 2:14-138
+ @ ./resources/js/app.js
+ @ multi ./resources/js/app.js ./resources/sass/app.scss
+
+       Asset       Size   Chunks             Chunk Names
+/css/app.css  361 bytes  /js/app  [emitted]  /js/app
+  /js/app.js   3.95 MiB  /js/app  [emitted]  /js/app
+
+ERROR in ./theme/index.css (./node_modules/css-loader??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./theme/index.css)
+Module build failed (from ./node_modules/postcss-loader/src/index.js):
+Error: ENOENT: no such file or directory, open 'D:\Project\AppServ\www\sextoy\theme\index.css'
+ @ ./theme/index.css 2:14-138
+ @ ./resources/js/app.js
+ @ multi ./resources/js/app.js ./resources/sass/app.scss
+ WAIT  Compiling...11:50:23 PM
+
+ DONE  Compiled successfully in 2575ms11:50:26 PM
+
+                                                    Asset       Size   Chunks             Chunk Names
+                                             /css/app.css  361 bytes  /js/app  [emitted]  /js/app
+                                               /js/app.js   5.25 MiB  /js/app  [emitted]  /js/app
+ fonts/element-icons.ttf?732389ded34cb9c52dd88271f1345af9   54.6 KiB           [emitted]  
+fonts/element-icons.woff?535877f50039c0cb49a6196a5b7517cd   27.5 KiB           [emitted]  
+ WAIT  Compiling...11:50:30 PM
+
+ DONE  Compiled successfully in 184ms11:50:31 PM
+
+       Asset       Size   Chunks             Chunk Names
+/css/app.css  361 bytes  /js/app  [emitted]  /js/app
+  /js/app.js   3.99 MiB  /js/app  [emitted]  /js/app
+ + 2 hidden assets
+ WAIT  Compiling...11:50:36 PM
+
+ DONE  Compiled successfully in 190ms11:50:37 PM
+
+       Asset       Size   Chunks             Chunk Names
+/css/app.css  361 bytes  /js/app  [emitted]  /js/app
+  /js/app.js   3.99 MiB  /js/app  [emitted]  /js/app
+ + 2 hidden assets
+ WAIT  Compiling...11:50:43 PM
+
+ DONE  Compiled successfully in 244ms11:50:44 PM
+
+       Asset       Size   Chunks             Chunk Names
+/css/app.css  361 bytes  /js/app  [emitted]  /js/app
+  /js/app.js   3.99 MiB  /js/app  [emitted]  /js/app
+ + 2 hidden assets
+ WAIT  Compiling...11:53:02 PM
+
+ DONE  Compiled successfully in 320ms11:53:02 PM
+
+       Asset       Size   Chunks             Chunk Names
+/css/app.css  361 bytes  /js/app  [emitted]  /js/app
+  /js/app.js   3.99 MiB  /js/app  [emitted]  /js/app
+ + 2 hidden assets
+ WAIT  Compiling...11:53:41 PM
+
+ DONE  Compiled successfully in 327ms11:53:41 PM
+
+       Asset       Size   Chunks             Chunk Names
+/css/app.css  361 bytes  /js/app  [emitted]  /js/app
+  /js/app.js   3.99 MiB  /js/app  [emitted]  /js/app
+ + 2 hidden assets
+ WAIT  Compiling...11:54:04 PM
+
+ DONE  Compiled successfully in 388ms11:54:05 PM
+
+       Asset       Size   Chunks             Chunk Names
+/css/app.css  361 bytes  /js/app  [emitted]  /js/app
+  /js/app.js   3.99 MiB  /js/app  [emitted]  /js/app
+ + 2 hidden assets
+ WAIT  Compiling...11:54:21 PM
+
+ DONE  Compiled successfully in 342ms11:54:22 PM
+
+ WAIT  Compiling...11:54:29 PM
+
+ DONE  Compiled successfully in 214ms11:54:29 PM
+
+ WAIT  Compiling...11:55:17 PM
+
+ DONE  Compiled successfully in 157ms11:55:17 PM
+
+       Asset       Size   Chunks             Chunk Names
+/css/app.css  433 bytes  /js/app  [emitted]  /js/app
+ + 3 hidden assets
+ WAIT  Compiling...12:02:24 AM
+
+ DONE  Compiled successfully in 162ms12:02:24 AM
+
+       Asset       Size   Chunks             Chunk Names
+/css/app.css  361 bytes  /js/app  [emitted]  /js/app
+ + 3 hidden assets
+ WAIT  Compiling...12:11:44 AM
+
+ DONE  Compiled successfully in 368ms12:11:45 AM
+
+       Asset       Size   Chunks             Chunk Names
+/css/app.css  361 bytes  /js/app  [emitted]  /js/app
+  /js/app.js   3.99 MiB  /js/app  [emitted]  /js/app
+ + 2 hidden assets
+ WAIT  Compiling...12:12:14 AM
+
+ DONE  Compiled successfully in 147ms12:12:15 AM
+
+       Asset       Size   Chunks             Chunk Names
+/css/app.css  355 bytes  /js/app  [emitted]  /js/app
+ + 3 hidden assets
+ WAIT  Compiling...12:12:31 AM
+
+ DONE  Compiled successfully in 231ms12:12:32 AM
+
+       Asset       Size   Chunks             Chunk Names
+/css/app.css  355 bytes  /js/app  [emitted]  /js/app
+ + 3 hidden assets
+ WAIT  Compiling...12:15:29 AM
+
+ DONE  Compiled successfully in 271ms12:15:29 AM
+
+       Asset       Size   Chunks             Chunk Names
+/css/app.css  355 bytes  /js/app  [emitted]  /js/app
+  /js/app.js   3.99 MiB  /js/app  [emitted]  /js/app
+ + 2 hidden assets
+ WAIT  Compiling...12:17:56 AM
+
+ DONE  Compiled successfully in 72ms12:17:56 AM
+
+ WAIT  Compiling...12:18:32 AM
+
+ ERROR  Failed to compile with 1 errors12:18:32 AM
+
+ error  in ./resources/js/app.js
+
+Syntax Error: SyntaxError: D:\Project\AppServ\www\sextoy\resources\js\app.js: Identifier 'Suntech' has already been declared (12:7)
+
+  10 | 
+  11 | import Suntech from './Views/App';
+> 12 | import Suntech from './Views/Course';
+     |        ^
+  13 | 
+  14 | const router = new VueRouter({
+  15 |     mode: 'history',
+
+
+ @ multi ./resources/js/app.js ./resources/sass/app.scss
+
+       Asset       Size   Chunks             Chunk Names
+/css/app.css  355 bytes  /js/app  [emitted]  /js/app
+  /js/app.js   7.24 KiB  /js/app  [emitted]  /js/app
+
+ERROR in ./resources/js/app.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: D:\Project\AppServ\www\sextoy\resources\js\app.js: Identifier 'Suntech' has already been declared (12:7)
+
+  10 | 
+  11 | import Suntech from './Views/App';
+> 12 | import Suntech from './Views/Course';
+     |        ^
+  13 | 
+  14 | const router = new VueRouter({
+  15 |     mode: 'history',
+    at Parser.raise (D:\Project\AppServ\www\sextoy\node_modules\@babel\parser\lib\index.js:6387:17)
+    at ScopeHandler.checkRedeclarationInScope (D:\Project\AppServ\www\sextoy\node_modules\@babel\parser\lib\index.js:3767:12)
+    at ScopeHandler.declareName (D:\Project\AppServ\www\sextoy\node_modules\@babel\parser\lib\index.js:3733:12)
+    at Parser.checkLVal (D:\Project\AppServ\www\sextoy\node_modules\@babel\parser\lib\index.js:8083:22)
+    at Parser.parseImportSpecifierLocal (D:\Project\AppServ\www\sextoy\node_modules\@babel\parser\lib\index.js:11258:10)
+    at Parser.maybeParseDefaultImportSpecifier (D:\Project\AppServ\www\sextoy\node_modules\@babel\parser\lib\index.js:11264:12)
+    at Parser.parseImport (D:\Project\AppServ\www\sextoy\node_modules\@babel\parser\lib\index.js:11235:31)
+    at Parser.parseStatementContent (D:\Project\AppServ\www\sextoy\node_modules\@babel\parser\lib\index.js:9998:27)
+    at Parser.parseStatement (D:\Project\AppServ\www\sextoy\node_modules\@babel\parser\lib\index.js:9900:17)
+    at Parser.parseBlockOrModuleBlockBody (D:\Project\AppServ\www\sextoy\node_modules\@babel\parser\lib\index.js:10476:25)
+    at Parser.parseBlockBody (D:\Project\AppServ\www\sextoy\node_modules\@babel\parser\lib\index.js:10463:10)
+    at Parser.parseTopLevel (D:\Project\AppServ\www\sextoy\node_modules\@babel\parser\lib\index.js:9829:10)
+    at Parser.parse (D:\Project\AppServ\www\sextoy\node_modules\@babel\parser\lib\index.js:11341:17)
+    at parse (D:\Project\AppServ\www\sextoy\node_modules\@babel\parser\lib\index.js:11377:38)
+    at parser (D:\Project\AppServ\www\sextoy\node_modules\@babel\core\lib\transformation\normalize-file.js:166:34)
+    at normalizeFile (D:\Project\AppServ\www\sextoy\node_modules\@babel\core\lib\transformation\normalize-file.js:100:11)
+    at runSync (D:\Project\AppServ\www\sextoy\node_modules\@babel\core\lib\transformation\index.js:44:43)
+    at runAsync (D:\Project\AppServ\www\sextoy\node_modules\@babel\core\lib\transformation\index.js:35:14)
+    at process.nextTick (D:\Project\AppServ\www\sextoy\node_modules\@babel\core\lib\transform.js:34:34)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+ @ multi ./resources/js/app.js ./resources/sass/app.scss /js/app[0]
+ WAIT  Compiling...12:18:37 AM
+
+ ERROR  Failed to compile with 1 errors12:18:38 AM
+
+ error  in ./resources/js/app.js
+
+Syntax Error: SyntaxError: D:\Project\AppServ\www\sextoy\resources\js\app.js: Identifier 'Suntech' has already been declared (12:7)
+
+  10 | 
+  11 | import Suntech from './Views/App';
+> 12 | import Suntech from './Views/Course/Form';
+     |        ^
+  13 | 
+  14 | const router = new VueRouter({
+  15 |     mode: 'history',
+
+
+ @ multi ./resources/js/app.js ./resources/sass/app.scss
+
+       Asset       Size   Chunks             Chunk Names
+/css/app.css  355 bytes  /js/app  [emitted]  /js/app
+  /js/app.js   7.24 KiB  /js/app  [emitted]  /js/app
+
+ERROR in ./resources/js/app.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: D:\Project\AppServ\www\sextoy\resources\js\app.js: Identifier 'Suntech' has already been declared (12:7)
+
+  10 | 
+  11 | import Suntech from './Views/App';
+> 12 | import Suntech from './Views/Course/Form';
+     |        ^
+  13 | 
+  14 | const router = new VueRouter({
+  15 |     mode: 'history',
+    at Parser.raise (D:\Project\AppServ\www\sextoy\node_modules\@babel\parser\lib\index.js:6387:17)
+    at ScopeHandler.checkRedeclarationInScope (D:\Project\AppServ\www\sextoy\node_modules\@babel\parser\lib\index.js:3767:12)
+    at ScopeHandler.declareName (D:\Project\AppServ\www\sextoy\node_modules\@babel\parser\lib\index.js:3733:12)
+    at Parser.checkLVal (D:\Project\AppServ\www\sextoy\node_modules\@babel\parser\lib\index.js:8083:22)
+    at Parser.parseImportSpecifierLocal (D:\Project\AppServ\www\sextoy\node_modules\@babel\parser\lib\index.js:11258:10)
+    at Parser.maybeParseDefaultImportSpecifier (D:\Project\AppServ\www\sextoy\node_modules\@babel\parser\lib\index.js:11264:12)
+    at Parser.parseImport (D:\Project\AppServ\www\sextoy\node_modules\@babel\parser\lib\index.js:11235:31)
+    at Parser.parseStatementContent (D:\Project\AppServ\www\sextoy\node_modules\@babel\parser\lib\index.js:9998:27)
+    at Parser.parseStatement (D:\Project\AppServ\www\sextoy\node_modules\@babel\parser\lib\index.js:9900:17)
+    at Parser.parseBlockOrModuleBlockBody (D:\Project\AppServ\www\sextoy\node_modules\@babel\parser\lib\index.js:10476:25)
+    at Parser.parseBlockBody (D:\Project\AppServ\www\sextoy\node_modules\@babel\parser\lib\index.js:10463:10)
+    at Parser.parseTopLevel (D:\Project\AppServ\www\sextoy\node_modules\@babel\parser\lib\index.js:9829:10)
+    at Parser.parse (D:\Project\AppServ\www\sextoy\node_modules\@babel\parser\lib\index.js:11341:17)
+    at parse (D:\Project\AppServ\www\sextoy\node_modules\@babel\parser\lib\index.js:11377:38)
+    at parser (D:\Project\AppServ\www\sextoy\node_modules\@babel\core\lib\transformation\normalize-file.js:166:34)
+    at normalizeFile (D:\Project\AppServ\www\sextoy\node_modules\@babel\core\lib\transformation\normalize-file.js:100:11)
+    at runSync (D:\Project\AppServ\www\sextoy\node_modules\@babel\core\lib\transformation\index.js:44:43)
+    at runAsync (D:\Project\AppServ\www\sextoy\node_modules\@babel\core\lib\transformation\index.js:35:14)
+    at process.nextTick (D:\Project\AppServ\www\sextoy\node_modules\@babel\core\lib\transform.js:34:34)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+ @ multi ./resources/js/app.js ./resources/sass/app.scss /js/app[0]
+ WAIT  Compiling...12:18:40 AM
+
+ ERROR  Failed to compile with 1 errors12:18:41 AM
+
+ error  in ./resources/js/app.js
+
+Syntax Error: SyntaxError: D:\Project\AppServ\www\sextoy\resources\js\app.js: Identifier 'Suntech' has already been declared (12:7)
+
+  10 | 
+  11 | import Suntech from './Views/App';
+> 12 | import Suntech from './Views/Course/Index';
+     |        ^
+  13 | 
+  14 | const router = new VueRouter({
+  15 |     mode: 'history',
+
+
+ @ multi ./resources/js/app.js ./resources/sass/app.scss
+
+       Asset       Size   Chunks             Chunk Names
+/css/app.css  355 bytes  /js/app  [emitted]  /js/app
+  /js/app.js   7.24 KiB  /js/app  [emitted]  /js/app
+
+ERROR in ./resources/js/app.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: D:\Project\AppServ\www\sextoy\resources\js\app.js: Identifier 'Suntech' has already been declared (12:7)
+
+  10 | 
+  11 | import Suntech from './Views/App';
+> 12 | import Suntech from './Views/Course/Index';
+     |        ^
+  13 | 
+  14 | const router = new VueRouter({
+  15 |     mode: 'history',
+    at Parser.raise (D:\Project\AppServ\www\sextoy\node_modules\@babel\parser\lib\index.js:6387:17)
+    at ScopeHandler.checkRedeclarationInScope (D:\Project\AppServ\www\sextoy\node_modules\@babel\parser\lib\index.js:3767:12)
+    at ScopeHandler.declareName (D:\Project\AppServ\www\sextoy\node_modules\@babel\parser\lib\index.js:3733:12)
+    at Parser.checkLVal (D:\Project\AppServ\www\sextoy\node_modules\@babel\parser\lib\index.js:8083:22)
+    at Parser.parseImportSpecifierLocal (D:\Project\AppServ\www\sextoy\node_modules\@babel\parser\lib\index.js:11258:10)
+    at Parser.maybeParseDefaultImportSpecifier (D:\Project\AppServ\www\sextoy\node_modules\@babel\parser\lib\index.js:11264:12)
+    at Parser.parseImport (D:\Project\AppServ\www\sextoy\node_modules\@babel\parser\lib\index.js:11235:31)
+    at Parser.parseStatementContent (D:\Project\AppServ\www\sextoy\node_modules\@babel\parser\lib\index.js:9998:27)
+    at Parser.parseStatement (D:\Project\AppServ\www\sextoy\node_modules\@babel\parser\lib\index.js:9900:17)
+    at Parser.parseBlockOrModuleBlockBody (D:\Project\AppServ\www\sextoy\node_modules\@babel\parser\lib\index.js:10476:25)
+    at Parser.parseBlockBody (D:\Project\AppServ\www\sextoy\node_modules\@babel\parser\lib\index.js:10463:10)
+    at Parser.parseTopLevel (D:\Project\AppServ\www\sextoy\node_modules\@babel\parser\lib\index.js:9829:10)
+    at Parser.parse (D:\Project\AppServ\www\sextoy\node_modules\@babel\parser\lib\index.js:11341:17)
+    at parse (D:\Project\AppServ\www\sextoy\node_modules\@babel\parser\lib\index.js:11377:38)
+    at parser (D:\Project\AppServ\www\sextoy\node_modules\@babel\core\lib\transformation\normalize-file.js:166:34)
+    at normalizeFile (D:\Project\AppServ\www\sextoy\node_modules\@babel\core\lib\transformation\normalize-file.js:100:11)
+    at runSync (D:\Project\AppServ\www\sextoy\node_modules\@babel\core\lib\transformation\index.js:44:43)
+    at runAsync (D:\Project\AppServ\www\sextoy\node_modules\@babel\core\lib\transformation\index.js:35:14)
+    at process.nextTick (D:\Project\AppServ\www\sextoy\node_modules\@babel\core\lib\transform.js:34:34)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+ @ multi ./resources/js/app.js ./resources/sass/app.scss /js/app[0]
+ WAIT  Compiling...12:18:46 AM
+
+ DONE  Compiled successfully in 10543ms12:18:56 AM
+
+                                                    Asset       Size   Chunks             Chunk Names
+                                             /css/app.css  355 bytes  /js/app  [emitted]  /js/app
+                                               /js/app.js      4 MiB  /js/app  [emitted]  /js/app
+ fonts/element-icons.ttf?732389ded34cb9c52dd88271f1345af9   54.6 KiB           [emitted]  
+fonts/element-icons.woff?535877f50039c0cb49a6196a5b7517cd   27.5 KiB           [emitted]  
+ WAIT  Compiling...12:19:50 AM
+
+ DONE  Compiled successfully in 251ms12:19:50 AM
+
+       Asset       Size   Chunks             Chunk Names
+/css/app.css  355 bytes  /js/app  [emitted]  /js/app
+  /js/app.js      4 MiB  /js/app  [emitted]  /js/app
+ + 2 hidden assets
+ WAIT  Compiling...12:19:53 AM
+
+ DONE  Compiled successfully in 299ms12:19:54 AM
+
+       Asset       Size   Chunks             Chunk Names
+/css/app.css  355 bytes  /js/app  [emitted]  /js/app
+  /js/app.js      4 MiB  /js/app  [emitted]  /js/app
+ + 2 hidden assets
+ WAIT  Compiling...12:19:57 AM
+
+ DONE  Compiled successfully in 110ms12:19:58 AM
+
+ WAIT  Compiling...12:20:06 AM
+
+ DONE  Compiled successfully in 371ms12:20:07 AM
+
+       Asset       Size   Chunks             Chunk Names
+/css/app.css  355 bytes  /js/app  [emitted]  /js/app
+  /js/app.js      4 MiB  /js/app  [emitted]  /js/app
+ + 2 hidden assets
+ WAIT  Compiling...12:20:54 AM
+
+ DONE  Compiled successfully in 377ms12:20:55 AM
+
+       Asset       Size   Chunks             Chunk Names
+/css/app.css  355 bytes  /js/app  [emitted]  /js/app
+  /js/app.js      4 MiB  /js/app  [emitted]  /js/app
+ + 2 hidden assets
+ WAIT  Compiling...12:23:25 AM
+
+ DONE  Compiled successfully in 310ms12:23:25 AM
+
+       Asset       Size   Chunks             Chunk Names
+/css/app.css  355 bytes  /js/app  [emitted]  /js/app
+  /js/app.js      4 MiB  /js/app  [emitted]  /js/app
+ + 2 hidden assets
